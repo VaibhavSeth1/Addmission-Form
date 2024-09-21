@@ -1,1 +1,1 @@
-# Sample-Addmission-Form
+# Sample-Admission-Form

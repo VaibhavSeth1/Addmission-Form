@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addmission Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Addmisson form</h1>
+    </header>
+    <form action="/action.php">
+        <main>
+            <section class="section" id="login">
+                <input type="text" placeholder="Create Username" />
+                <input type="password" placeholder="Create password" />
+                <input type="password" placeholder="Confirm password" />
+            </section>
+            <br /><br />
+            <section class="section" id="pi">
+                <input type="text" placeholder="Full Name" />
+                <br />
+                <input type="text" placeholder="Contact No." />
+                <br />
+                <input type="text" placeholder="Permanent Address" />
+                <br />
+                DOB : <input type="date" />
+            </section>
+            <br /><br />
+            <section class="section" id="class">
+                <p>Choose Your Class -</p>
+                <br>
+                <label for="1"><input type="radio" value="Ist" name="class" id="1" />Class I<sup>st</sup></label>
+                <label for="3"><input type="radio" value="IIIrd" name="class" id="3" />Class III<sup>rd</sup></label>
+                <label for="6"><input type="radio" value="VIth" name="class" id="6" />Class VI<sup>th</sup></label>
+                <label for="9"><input type="radio" value="IXst" name="class" id="9" />Class IX<sup>th</sup></label>
+                <label for="11"><input type="radio" value="XIst" name="class" id="11" />Class XI<sup>th</sup></label>
+            </section>
+            <br><br>
+            <section class="section" id="Stream">
+                <p>Choose any Stream For Class XI<sup id="supth">th</sup> -</p>
+                <br>
+                <label for="pcm">
+                    <input type="radio" value="pcm" name="Stream" id="pcm">Physics, Chemistry, Maths
+                </label>
+                <br>
+                <label for="pcb">
+                    <input type="radio" value="pcb" name="Stream" id="pcb">Physics, Chemistry, Bio
+                </label>
+                <br>
+                <label for="commerce">
+                    <input type="radio" value="commerce" name="Stream" id="commerce">Commerce
+                </label>
+                <br>
+                <label for="arts">
+                    <input type="radio" value="arts" name="Stream" id="arts">Arts
+                </label>
+            </section>
+            <br><br>
+            <section class="section" id="opsub">
+                <p>Choose Any Two Subjects -</p>
+                <br>
+                <label for="cs">
+                    <input type="checkbox" value="cs" name="optional subject" id="cs">Computer Science
+                </label>
+                <br>
+                <label for="pt">
+                    <input type="checkbox" value="pt" name="optional subject" id="pt">Physical Training
+                </label>
+                <br>
+                <label for="hc">
+                    <input type="checkbox" value="hc" name="optional subject" id="hc">Hand Craft
+                </label>
+                <br>
+                <label for="scout">
+                    <input type="checkbox" value="scout" name="optional subject" id="scout">Scout Guide
+                </label>
+                <br>
+                <label for="ncc">
+                    <input type="checkbox" value="ncc" name="optional subject" id="ncc">NCC
+                </label>
+            </section>
+            <br><br>
+            <section class="section" id="city">
+                <p>Please Select Our Branch -</p>
+                <br>
+                <select name="city">
+                    <option>Varanasi</option>
+                    <option>Lucknow</option>
+                    <option>Noida</option>
+                    <option>Delhi</option>
+                    <option>Gurugram</option>
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Indore</option>
+                    <option>Patna</option>
+                    <option>Jaipur</option>
+                    <option>Chandigarh</option>
+                    <option>Puri</option>
+                </select>
+            </section>
+            <br><br>
+            <section class="section" id="que">
+                <p>If You Have Any Question, You Can Ask From Here -</p>
+                <textarea name="Questions" placeholder="Ask Your Questions here...." cols="40" rows="3"></textarea>
+            </section>
+            <br>
+            <section id="submit">
+                <input type="submit" value="submit">
+            </section>
+        </main>
+    </form>
+    <footer>
+        <p id="footer">This addmission form is created by UNISUS.</p>
+    </footer>
+
+</body>
+
+</html>
